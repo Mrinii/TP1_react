@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import Calc from './Calc';
 import CalcState from './CalcState';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Calc/>
       <CalcState/>
     </div>
   );

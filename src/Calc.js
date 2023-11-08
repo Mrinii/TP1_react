@@ -27,27 +27,27 @@ setExp(newval);
 
   return (
     <div>
-      <input onClick={(e)=>tapecar(e)} type="button" value="." />
-      <input onClick={(e)=>tapecar(e)} type="button" value="0" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="1" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="2" />
+      <input onClick={(e)=>tapecar(e)} type="button" value="." className="value btn btn-primary w p-4" />
+      <input onClick={(e)=>tapecar(e)} type="button" value="0" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="1" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="2" className="value btn btn-primary w p-4"/>
       <br />
-      <input onClick={(e)=>tapecar(e)} type="button" value="3" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="4" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="5" />
+      <input onClick={(e)=>tapecar(e)} type="button" value="3" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="4" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="5" className="value btn btn-primary w p-4"/>
       <br />
-      <input onClick={(e)=>tapecar(e)} type="button" value="6" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="7" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="8" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="9" />
+      <input onClick={(e)=>tapecar(e)} type="button" value="6" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="7" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="8" className="value btn btn-primary w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="9" className="value btn btn-primary w p-4"/>
       <br />
-      <input onClick={(e)=>tapecar(e)} type="button" value="+" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="-" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="*" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="/" />
+      <input onClick={(e)=>tapecar(e)} type="button" value="+" className="value btn btn-warning w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="-" className="value btn btn-warning w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="*" className="value btn btn-warning w p-4"/>
+      <input onClick={(e)=>tapecar(e)} type="button" value="/" className="value btn btn-warning w p-4"/>
       <br />
-      <input onClick={clear} type="button" value="C" />
-      <input onClick={result} type="button" value="=" />
+      <input onClick={clear} type="button" className="value btn btn-danger w p-4" value="C" />
+      <input onClick={result} type="button" className="value btn btn-succsess w p-4" value="=" />
       <input value={exp} type="text"  />
     </div>
   )
